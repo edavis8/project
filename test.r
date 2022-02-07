@@ -17,3 +17,4 @@ git_default_branch_rediscover()
 system('git branch -m master main')
 
 system('git commit -am "test 2.7"')
+system("git config --global credential.helper 'cache --timeout 15780000'")
